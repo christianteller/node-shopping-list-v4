@@ -22,7 +22,7 @@ const ShoppingList = {
     const item = {
       name: name,
       id: uuid.v4(),
-      budget: budget
+      checked: budget
     };
     this.items[item.id] = item;
     return item;
